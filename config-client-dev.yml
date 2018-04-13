@@ -33,10 +33,3 @@ spring:
             max-idle: 8
             max-wait: -1
     
-    rabbitmq:
-        host: 127.0.0.1
-        password: 123456
-        port: 15672
-        publisher-confirms: true
-        username: guest
-        virtual-host: /
